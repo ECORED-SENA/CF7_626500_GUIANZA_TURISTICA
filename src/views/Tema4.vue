@@ -4,8 +4,8 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 1
-      h1 Interpretación y plan para el servicio guiado
+        span 4
+      h1 
 
 
 
@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'Tema1',
+  name: 'Tema4',
   components: {},
   data: () => ({
     indicadorTarjetaSlide: true,
