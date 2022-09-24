@@ -21,7 +21,6 @@
     .titulo-segundo
       h2#t_1_1 1.1 Audiencia
 
-
     .row.cont_1_1(style="position:relative;")
       .col-md-6.mb-4.mb-md-0(style="position:relative;place-self:center;")
         figure
@@ -155,6 +154,73 @@
     .titulo-segundo
       h2#t_1_3 1.3   Propuesta de valor
 
+    .bloque-texto-a.color-primario.mt-5.bloque1_1(style="background-color:transparent;position:relative;z-index:1;")
+      .row.m-0.align-items-center.justify-content-between(style="position:relative")
+        .col-lg-8.p-5
+          .bloque-texto-a__texto.p-4(style="position:relative")
+            p.mb-0(data-aos="fade-up") La promesa o propuesta de valor es uno de los aspectos fundamentales para la empresa, de ella depende la fidelización del cliente, la perpetuación del buen nombre y la capacidad de satisfacer la demanda a través de repensar los productos y servicios ofrecidos.  Es por ello que se debe marcar la diferencia con la competencia, conociendo muy bien al cliente y ofreciéndole productos o servicios con un valor diferencial que logre resolver de manera ágil y completa, los requerimientos del visitante. 
+        .col-lg-4.mb-4.mb-lg-0
+          figure.text-center(style="position:relative")
+            img(src="@/assets/curso/tema1/16.png" data-aos="fade-left" style="max-width:350px;display:inline;")
+
+    p.mt-5(data-aos="fade-up") Una vez se identifica el perfil del cliente, se puede definir la propuesta de valor tomando los siguientes elementos:
+    .row.mt-5.col-md-10.m-auto
+      .col-lg-4.mb-4.mb-md-0
+        h3.text-center(data-aos="fade-up") 1. Productos y Servicios
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/17.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/20.png')})`}" style="background-size:cover;background-repeat:no-repeat;background-color:transparent;")
+              h4.text-center ¿Qué ofrecemos?
+              ul.lista-ul.mt-3(style="position:relative")
+                li(data-aos="fade-up")
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Servicios Físicos o Tangibles
+                li(data-aos="fade-up")
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Servicios Intangibles
+                li(data-aos="fade-up")
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Servicios Digitales
+                li(data-aos="fade-up")
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Servicios Financieros
+      .col-lg-4.mb-4.mb-md-0
+        h3.text-center(data-aos="fade-up") 2. Aliviadores de Frustraciones
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/18.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/21.png')})`}" style="background-size:cover;background-repeat:no-repeat;background-color:transparent;")
+              h4.text-center ¿Cómo se alivian?
+              ul.lista-ul.mt-3(style="position:relative")
+                li(data-aos="fade-up")
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Servicios Centrarse en las frustraciones que le importan a los clientes
+                li(data-aos="fade-up")
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] No hace falta resolver todas las frustraciones del cliente
+      .col-lg-4.mb-4.mb-md-0
+        h3.text-center(data-aos="fade-up") 3. Creadores de Alegrías
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/19.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/22.png')})`}" style="background-size:cover;background-repeat:no-repeat;background-color:transparent;")
+              h4.text-center ¿Cómo crean alegrías?
+              ul.lista-ul.mt-3(style="position:relative")
+                li(data-aos="fade-up")
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Marcan las diferencias en el mercado
+                li(data-aos="fade-up")
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Generan alegrías en todos los niveles
+
+    br
+    p.mt-5(data-aos="fade-up") A continuación, se presenta un modelo de plantilla para representación simplificada de una situación actual o hipotética para hacer propuesta de valor de acuerdo con necesidades de clientes (ver figura 2):
+
+    .col-md-10.m-auto.mt-5
+      .titulo-sexto.color-acento-contenido
+        h5.d-block Figura 2
+        span El cliente y sus necesidades
+
+      figure.mt-5
+        img(src="@/assets/curso/tema1/23.png" data-aos="zoom-in-up")
+        figcaption.mt-4.bg-white.p-0(style="font-weight:500;") Nota. Modelo de Gray, D.  Recuperado de INCIPY (2021).
+
     
 
 
@@ -190,4 +256,20 @@ export default {
   background: url(../assets/curso/tema1/2.png)
 .cajon.color-primario:before
   background-color: #DAAF40
+.bloque1_1.bloque-texto-a.color-primario
+  background-color: #FFB338
+.bloque1_1.bloque-texto-a.color-primario:before
+  background: url(../assets/curso/tema1/15.png)
+  background-size: cover
+  background-repeat: no-repeat
+  height: 93%
+  top: 33px
+.bloque1_1.bloque-texto-a.color-primario:after
+  width: 100%
+  height: 92.5%
+  content: ''
+  position: absolute
+  background-color: #3F6A31
+  top: 35px
+  z-index: -1
 </style>
