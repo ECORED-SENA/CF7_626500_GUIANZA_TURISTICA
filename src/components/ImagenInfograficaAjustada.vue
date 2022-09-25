@@ -11,7 +11,7 @@
         @mouseleave="selected = 0"
       )
       .img-infografica__item__dot
-      .img-infografica__item__numero(v-if="item.hasOwnProperty('numero')" style="display:inline-flex;align-items:center;background-color: #fff;padding: 10px;border-radius: 40px;box-shadow: 0px 0px 10px rgb(0 0 0 / 9%);width:max-content;") #[i.fas.fa-plus] #[span(style="color:#12263F;") &nbsp;&nbsp;{{item.numero}}]
+      .img-infografica__item__numero(v-if="item.hasOwnProperty('numero')" style="display:inline-flex;align-items:center;background-color: #fff;padding: 10px;border-radius: 40px;box-shadow: 0px 0px 10px rgb(0 0 0 / 9%);width:max-content;") #[i.fas.fa-plus] #[span(style="color:#12263F;font-size:12px;") &nbsp;&nbsp;{{item.numero}}]
     .img-infografica__card(
       v-for="item in elements"
       :key="'img-infografica-card-'+item.id"

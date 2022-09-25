@@ -225,7 +225,7 @@ export default {
   padding: 7px
   border-radius: 33px
   border: 4px #F19E72 solid
-  font-size: 13px
+  font-size: 12px
 .infografia1 .tarjeta.color-acento-botones
   background-color: #FFD667
 .slydera1
