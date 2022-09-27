@@ -209,7 +209,7 @@ export default {
         'Es una forma de comunicación estratégica, es decir, una forma planificada y consciente de dirigir mensajes a un determinado público del que se espera una respuesta (TURyDES, 2010).',
     },
     {
-      termino: 'In situ',
+      termino: '<em>In situ</em>',
       significado: 'Se desarrolla en el lugar (RAE, 2021).',
     },
     {
@@ -250,7 +250,7 @@ export default {
     {
       termino: 'Técnicas ',
       significado:
-        'Conjunto de procedimientos o recursos que se usan en un arte, en una ciencia o en una actividad determinada, en especial cuando se adquieren por medio de su práctica y requieren habilidad (Diccionario Oxford Languages, s.f.)',
+        'Conjunto de procedimientos o recursos que se usan en un arte, en una ciencia o en una actividad determinada, en especial cuando se adquieren por medio de su práctica y requieren habilidad (Diccionario <em>Oxford Languages</em>, s.f.)',
     },
   ],
   complementario: [
@@ -259,7 +259,8 @@ export default {
       referencia:
         'PUP, Global Heritage Consortium. (2013). Pasos para el desarrollo de una presentación interpretativa. ',
       tipo: 'Cartilla',
-      link: 'Físico',
+      link:
+        '/downloads/Anexo_2_Material_tecnicas_y_estructuras_de_interpretacion.pdf',
     },
     {
       tema: 'Mapa de empatía',
@@ -303,33 +304,60 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable del equipo de Diseño Instruccional',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: '',
+        nombre: 'Juan Carlos Rubiano Reyes',
+        cargo: 'Instructor',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Nacional de Hotelería Turismo y Alimentos - Regional Distrito Capital',
       },
       {
-        nombre: '',
-        cargo: '',
+        nombre: 'Raúl Javier Hernández Salgado ',
+        cargo: 'Instructor',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Nacional de Hotelería Turismo y Alimentos - Regional Distrito Capital',
       },
       {
-        nombre: '',
-        cargo: '',
+        nombre: 'Hernán Darío García González',
+        cargo: 'Instructor ',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Nacional de Hotelería Turismo y Alimentos - Regional Distrito Capital',
       },
       {
-        nombre: '',
-        cargo: '',
+        nombre: 'Carolina Hernández ',
+        cargo: 'Instructor ',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Nacional de Hotelería Turismo y Alimentos - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Villamizar R',
+        cargo: 'Profesional diseño y desarrollo instruccional',
+        centro:
+          'Centro Nacional de Hotelería Turismo y Alimentos - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Luisa Fernanda Posada Hincapié',
+        cargo: 'Experto temático',
+        centro: 'Centro de Comercio, Industria y Turismo - Regional Quindío',
+      },
+      {
+        nombre: 'María Inés Machado López',
+        cargo: 'Diseñador instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+      },
+      {
+        nombre: 'Alix Cecila Chinchilla Rueda',
+        cargo: 'Asesor Metodológico',
+        centro: 'Centro de Diseño  y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Corrector de estilo ',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -338,11 +366,6 @@ export default {
         cargo: 'Responsable del equipo',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional - Tolima',
       },
       {
         nombre: '',
@@ -357,38 +380,49 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Erika Viviana Sandoval Rojas',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'John Jairo Arciniegas González',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Ludwyng Corzo García',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Producción audiovisual',
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Producción audiovisual',
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios  - Regional Tolima',
+      },
+      {
+        nombre: 'Melina Tatiana Quintero Rodriguez',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

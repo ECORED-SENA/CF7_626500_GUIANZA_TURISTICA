@@ -71,70 +71,70 @@
     .col-md-10.m-auto.mt-5
       .titulo-sexto.color-acento-contenido
         h5.d-block Figura 1.
-        span Matriz de costos y tiempos en el país exportador
+        span Aspectos del mapa de empatía
 
       .row.mt-5
         .col-md-4.mb-4.mb-md-0
           .h-100
-            .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;")
+            .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;min-height:80px;")
               .col-auto(style="place-self:center")
                 figure
                   img(src="@/assets/curso/tema1/8.png" data-aos="fade-up")
               .col(style="place-self:center")
                 h5.mb-0(data-aos="fade-up") ¿Qué ve?
-            .p-4(style="border:1px #707070 solid;border-bottom-left-radius:30px;")
+            .p-4(style="border:1px #707070 solid;border-bottom-left-radius:30px;min-height:280px;")
               p(data-aos="fade-up") Se refiere a lo que la persona observa en diferentes medios tecnológicos, como internet, redes sociales, televisión.
         .col-md-4.mb-4.mb-md-0
           .h-100
-            .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;")
+            .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;min-height:80px;")
               .col-auto(style="place-self:center")
                 figure
                   img(src="@/assets/curso/tema1/9.png" data-aos="fade-up")
               .col(style="place-self:center")
                 h5.mb-0(data-aos="fade-up") ¿Qué escucha?
-            .p-4(style="border:1px #707070 solid;border-bottom-left-radius:30px;")
+            .p-4(style="border:1px #707070 solid;border-bottom-left-radius:30px;min-height:280px;")
               p(data-aos="fade-up") Gustos musicales, medios de comunicación que puedan llegar a influenciarlo; influenc que siga en las diferentes redes sociales, aquellos dolos que puede llegar a tener; también es bueno identificar aquellas marcas preferidas por este cliente ideal.
         .col-md-4.mb-4.mb-md-0
           .h-100
-            .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;")
+            .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;min-height:80px;")
               .col-auto(style="place-self:center")
                 figure
                   img(src="@/assets/curso/tema1/10.png" data-aos="fade-up")
               .col(style="place-self:center")
                 h5.mb-0(data-aos="fade-up") ¿Qué piensa y siente?
-            .p-4(style="border:1px #707070 solid;border-bottom-left-radius:30px;")
-              p(data-aos="fade-up") Gustos musicales, medios de comunicación que puedan llegar a influenciarlo; influenc que siga en las diferentes redes sociales, aquellos dolos que puede llegar a tener; también es bueno identificar aquellas marcas preferidas por este cliente ideal.
+            .p-4(style="border:1px #707070 solid;border-bottom-left-radius:30px;min-height:280px;")
+              p(data-aos="fade-up") Sus sueños, deseos, las preocupaciones, los miedos; es posible que el servicio que se le ofrece pueda ser beneficioso para la tranquilidad del cliente.
 
       .row.mt-5.mb-md-0
         .col-md-4.mb-4.mb-md-0
           .h-100
-            .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;")
+            .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;min-height:80px;")
               .col-auto(style="place-self:center")
                 figure
                   img(src="@/assets/curso/tema1/11.png" data-aos="fade-up")
               .col(style="place-self:center")
                 h5.mb-0(data-aos="fade-up") ¿Qué habla y hace?
-            .p-4(style="border:1px #707070 solid;border-bottom-left-radius:30px;")
+            .p-4(style="border:1px #707070 solid;border-bottom-left-radius:30px;min-height:280px;")
               p(data-aos="fade-up") Actividades que hace cotidianamente, sobre todo ls , ya que esta información será fundamental para poder orientar los mecanismos de publicidad y crear el servicio ideal para este cliente.
         .col-md-4.mb-4.mb-md-0
           .h-100
-            .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;")
+            .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;min-height:80px;")
               .col-auto(style="place-self:center")
                 figure
                   img(src="@/assets/curso/tema1/12.png" data-aos="fade-up")
               .col(style="place-self:center")
                 h5.mb-0(data-aos="fade-up") ¿Cuáles son sus dolores?
-            .p-4(style="border:1px #707070 solid;border-bottom-left-radius:30px;")
+            .p-4(style="border:1px #707070 solid;border-bottom-left-radius:30px;min-height:280px;")
               p(data-aos="fade-up") Los miedos, las frustraciones, los obstáculos que ha tenido para alcanzar las diferentes metas.
         .col-md-4.mb-4.mb-md-0
           .h-100
-            .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;")
+            .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;min-height:80px;")
               .col-auto(style="place-self:center")
                 figure
                   img(src="@/assets/curso/tema1/13.png" data-aos="fade-up")
               .col(style="place-self:center")
                 h5.mb-0(data-aos="fade-up") ¿Cuáles son sus necesidades?
-            .p-4(style="border:1px #707070 solid;border-bottom-left-radius:30px;")
+            .p-4(style="border:1px #707070 solid;border-bottom-left-radius:30px;min-height:280px;")
               p(data-aos="fade-up") ¿Qué significa para él? ¿Cuáles son sus etas personales o laborales? ¿Qué actividades le ayudarían a superar sus problemas?, entre otras preguntas.
 
     p.mt-5(data-aos="fade-up") Algunos de los elementos a tener presente cuando se construye un mapa de la empatía, corresponden con características personales o de historia de vida, como se puede apreciar a manera de información en el siguiente ejemplo:
@@ -192,7 +192,7 @@
               h4.text-center ¿Cómo se alivian?
               ul.lista-ul.mt-3(style="position:relative")
                 li(data-aos="fade-up")
-                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Servicios Centrarse en las frustraciones que le importan a los clientes
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Centrarse en las frustraciones que le importan a los clientes
                 li(data-aos="fade-up")
                   p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] No hace falta resolver todas las frustraciones del cliente
       .col-lg-4.mb-4.mb-md-0

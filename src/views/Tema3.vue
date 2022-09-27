@@ -126,7 +126,7 @@
     .titulo-segundo
       h2#t_3_1 3.1   Principios de la interpretación
 
-    p(data-aos="fade-up") Freeman Tilden es considerado uno de los padres de la interpretación, a finales de los años 60, brindó una cátedra sobre esta disciplina tan importante hoy para el turismo, donde se le define como una actividad educativa que busca dar a conocer a los grupos de visitantes, los significados e interrelaciones de un hecho o lugar mediante medios ilustrativos, experiencias de primera mano y objetos originales que permiten entender el alma del lugar. En su libro Interpreting our Heritage (1957), Tilden menciona seis (6) principios fundamentales de la interpretación del patrimonio así:
+    p(data-aos="fade-up") Freeman Tilden es considerado uno de los padres de la interpretación, a finales de los años 60, brindó una cátedra sobre esta disciplina tan importante hoy para el turismo, donde se le define como una actividad educativa que busca dar a conocer a los grupos de visitantes, los significados e interrelaciones de un hecho o lugar mediante medios ilustrativos, experiencias de primera mano y objetos originales que permiten entender el alma del lugar. En su libro #[em Interpreting our Heritage] (1957), Tilden menciona seis (6) principios fundamentales de la interpretación del patrimonio así:
 
     ImagenInfograficaAjustada.color-secundario.col-lg-10.m-auto.infografia1.mt-5
       template(v-slot:imagen)
@@ -293,7 +293,7 @@
     .row.mt-5
       .col-md-6.mb-4.mb-md-0
         LineaTiempoD.color-secundario.mt-5
-          p(numero="1" titulo="Secuencia cronológica") La secuencia categórica, como lo indica su nombre, contiene un número finito de categorías o grupos distintos. Los datos categóricos pueden no tener un orden lógico. Por ejemplo, los predictores categóricos incluyen sexo, tipo de material y método de pago. Es decir, por ejemplo, hablar de las plantas y presentarlas por categorías.
+          p(numero="1" titulo="Secuencia cronológica") Un orden cronológico es un orden establecido en función de una sucesión temporal. La expresión suele utilizarse para dar cuenta de sucesos históricos reales o narraciones ficticias en donde los eventos son presentados en un orden temporal virtual. #[br] Es una de las estructuras más básicas es ordenar las paradas según su cronología. Una especie de línea de tiempo. 
           p(numero="2" titulo="Secuencia anacrónica")  Esta secuencia en lugar de seguir una cronología, comienza en el medio o final de la historia contada. Es decir, que resulta incongruente respecto a la época en la cual se presenta.
           p(numero="3" titulo="Secuencia argumento científico") La estructura en esta secuencia es similar a la de un argumento científico. Es un procedimiento cognitivo lingüístico que da lugar a la producción de un texto explicativo, en el que pueden reconocerse cuatro componentes: pragmática, retórica, teórica y lógica.
           p(numero="4" titulo="Secuencia categórica") La secuencia categórica, como lo indica su nombre, contiene un número finito de categorías o grupos distintos. Los datos categóricos pueden no tener un orden lógico. Por ejemplo, los predictores categóricos incluyen sexo, tipo de material y método de pago. Es decir, por ejemplo, hablar de las plantas y presentarlas por categorías.
