@@ -259,8 +259,8 @@ export default {
       referencia:
         'PUP, Global Heritage Consortium. (2013). Pasos para el desarrollo de una presentación interpretativa. ',
       tipo: 'Cartilla',
-      link:
-        '/downloads/Anexo_2_Material_tecnicas_y_estructuras_de_interpretacion.pdf',
+      descarga:
+        'downloads/Anexo_2_Material_tecnicas_y_estructuras_de_interpretacion.pdf',
     },
     {
       tema: 'Mapa de empatía',
@@ -368,7 +368,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Marcela Alarcon Granados',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
