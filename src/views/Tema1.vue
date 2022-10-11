@@ -60,6 +60,18 @@
         .col-md-5(style="place-self:center")
           figure
             img(src='@/assets/curso/tema1/7.png' data-aos="fade-left")
+      .row
+        .col-md-5(style="place-self:center")
+          figure
+            img(src='@/assets/curso/tema1/24.png' data-aos="fade-right")
+        .col-md-7.mb-4.mb-md-0(style="place-self:center")
+          p(data-aos="fade-right") #[strong La estructuración interpretativa:] se complementa con las propuestas de marca emocional que se proponen en los destinos y que el guía tiene en cuenta para la interpretación.
+      .row
+        .col-md-7.mb-4.mb-md-0(style="place-self:center")
+          p(data-aos="fade-right") #[strong La adecuación del lenguaje:] de acuerdo con la audiencia es un ejercicio de reflexión permanente y dedicado para obtener los objetivos del servicio guiado.
+        .col-md-5(style="place-self:center")
+          figure
+            img(src='@/assets/curso/tema1/25.png' data-aos="fade-left")
 
     Separador.mt-5
 
