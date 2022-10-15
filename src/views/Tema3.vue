@@ -47,7 +47,7 @@
     p.mt-5(data-aos="fade-up") Para construir un mensaje interpretativo y que este sea captado por los visitantes, se debe tener en cuenta  las condiciones técnicas que se presentan a continuación:
 
     .row.mt-5
-      .col-md-6.mb-4.mb-md-0(style="place-self:center")
+      .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
         AcordionA.acor2(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Ameno")
             p Un mensaje agradable que permita captar la atención.
@@ -61,63 +61,63 @@
             p Tener un tema o idea clara, es donde se sintetiza la idea principal del mensaje, en lo posible que sea muy potente, con el fin de sensibilizar al visitante.
           .row(titulo="Ejemplo  de mensaje interpretativo")
             p Interpretar es el arte de contar una buena historia
-      .col-md-6(style="place-self:center")
+      .col-lg-6(style="place-self:center")
         figure
           img(src="@/assets/curso/tema3/4.png" data-aos="fade-left")
 
     .row.cont_3_2.mt-5(style="position:relative;")
-      .col-md-6.mb-4.mb-md-0(style="position:relative;place-self:center;")
+      .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-0(style="position:relative;place-self:center;")
         figure
           img(src="@/assets/curso/tema3/5.png" data-aos="fade-right")
-      .col-md-6(style="position:relative;place-self:center;")
+      .col-lg-6.order-1.order-lg-0(style="position:relative;place-self:center;")
         p(data-aos="fade-up") El mensaje interpretativo debe estar construido de tal manera que llame la atención y curiosidad del público visitante, puede estar relacionado con sus vidas y experiencias diarias, al final revela su esencia o parte fundamental, haciendo referencia a la totalidad del bien patrimonial interpretado, por ejemplo: estableciendo conexiones con la historia de una comunidad. Pueden estar planteados desde los objetivos que se quieren alcanzar con el público visitante, qué se quiere que sepan, qué s quiere que sientan y qué se quiere que hagan. 
         .cajon.color-primario.p-4.mt-4(style="position:relative;background-color:#FFD667;box-shadow:0px 0px 10px rgba(0,0,0,.2);")
           p.mb-0(data-aos="fade-up") “Para estructurar el mensaje interpretativo se recomienda trabajarlo entorno a una idea, (oración-tema) recordable. Una oración completa, con sujeto, verbo y predicado, que sintetice el mensaje; ya que es como el titular de un periódico, el cual sirve también para dar título a paneles, folletos, y es fundamental para las actividades que realiza el guía” (Bazán, 2014).
 
     p.mt-5(data-aos="fade-up") Otros aspectos para tener en cuenta a la hora de construir el mensaje interpretativo son:
 
-    SlyderA.slydera1.mt-5.p-5(tipo="b")
-      .row
-        .col-md-4.mb-4.mb-md-0
+    SlyderA.slydera1.mt-5(tipo="b")
+      .row.p-4
+        .col-lg-4.mb-4.mb-lg-0
           h4 Redacción clara y de fácil captación para el público.
           p.mt-5 Estar redactado en un lenguaje sencillo, en lo posible no muy largo, usar un tono amable y cercano al visitante. 
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema3/6.png', alt='')
-      .row
-        .col-md-4.mb-4.mb-md-0
+      .row.p-4
+        .col-lg-4.mb-4.mb-lg-0
           h4 Tener claro a quién va dirigido el mensaje.
           p.mt-5 Escribir el mensaje en primera persona y hacer alusión a algún aspecto de la personalidad del receptor, se pueden usar metáforas, analogías o comparaciones. También se puede incluir humor, teniendo cuidado. Evitar los tecnicismos y utilizar solo una idea en cada frase. 
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema3/7.png', alt='')
-      .row
-        .col-md-4.mb-4.mb-md-0
+      .row.p-4
+        .col-lg-4.mb-4.mb-lg-0
           h4 No presentar errores, ser cuidadosos en el escrito.
           p.mt-5 El mensaje debe quedar claro y sin errores ortográficos o gramaticales.
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema3/8.png', alt='')
-      .row
-        .col-md-4.mb-4.mb-md-0
+      .row.p-4
+        .col-lg-4.mb-4.mb-lg-0
           h4 Abordar el tema mediante preguntas simples.
           p.mt-5 Se pueden usar preguntas sencillas que generen respuestas fáciles. 
           p.mt-4 Esta estrategia es buena pero no se puede abusar de ella.
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema3/9.png', alt='')
-      .row
-        .col-md-4.mb-4.mb-md-0
+      .row.p-4
+        .col-lg-4.mb-4.mb-lg-0
           h4 Utilizar los mecanismo sensoriales para generar impacto.
           p.mt-5 Se debe realizar una invitación a utilizar los sentidos o a hacer algo con el mensaje, bien sea transmitido por el guía o leído a través de un folleto.
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema3/10.png', alt='')
-      .row
-        .col-md-4.mb-4.mb-md-0
+      .row.p-4
+        .col-lg-4.mb-4.mb-lg-0
           h4 Utilizar el mensaje para resaltar otras ideas relacionadas.
           p.mt-5 Para concluir el programa haciendo un enlace con el mensaje, tema inicial o esa frase que se ha reiterado y desarrollado con ideas complementarias.
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema3/11.png', alt='')
 
@@ -180,7 +180,7 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/13.png')})`}" style="background-color:#FFD667;")
-              p.text-center(style="position:absolute;width:100%;background-color:#FFD667;bottom:-40px;padding:1rem;border-radius:0px 0px 50px 50px;height:90px;") Público (visitantes, turistas, estudiantes, etc.)
+              p.text-center(style="position:absolute;width:100%;background-color:#FFD667;bottom:0px;padding:1rem;margin-bottom:0;height:90px;") Público (visitantes, turistas, estudiantes, etc.)
             .tarjeta-flip__contenido.p-4.p-xl-5(style="background-color:#FFD667;")
               h5(style="border-left:4px #12263F solid;padding-left:5px;") Público (visitantes, turistas, estudiantes, etc.)
               p.mt-4 Caracterizar el tipo de visitante de acuerdo a la edad, lugar de procedencia, estado físico, si tiene algún tipo de limitación de movilidad, entre otros. También se puede verificar si es un público cautivo o no cautivo, y partir por identificar sus intereses.
@@ -189,7 +189,7 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/14.png')})`}" style="background-color:#406834;")
-              p.text-center.text-white(style="position:absolute;width:100%;background-color:#406834;bottom:-40px;padding:1rem;border-radius:0px 0px 50px 50px;height:90px;") Guía- intérprete
+              p.text-center.text-white(style="position:absolute;width:100%;background-color:#406834;bottom:0px;padding:1rem;margin-bottom:0;height:90px;") Guía- intérprete
             .tarjeta-flip__contenido.p-4.p-xl-5(style="background-color:#FFD667;")
               h5(style="border-left:4px #12263F solid;padding-left:5px;")  Guía- intérprete
               p.mt-4 El guía-intérprete es el mediador entre el recurso y el visitante, debe tener un conocimiento grande de los recursos y del lugar para poder generar conexiones, y así mismo vincular a los visitantes con el patrimonio. 
@@ -198,7 +198,7 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/15.png')})`}" style="background-color:#0387D0;")
-              p.text-center.text-white(style="position:absolute;width:100%;background-color:#0387D0;bottom:-40px;padding:1rem;border-radius:0px 0px 50px 50px;height:90px;") Comunidades locales
+              p.text-center.text-white(style="position:absolute;width:100%;background-color:#0387D0;bottom:0px;padding:1rem;margin-bottom:0;height:90px;") Comunidades locales
             .tarjeta-flip__contenido.p-4.p-xl-5(style="background-color:#FFD667;")
               h5(style="border-left:4px #12263F solid;padding-left:5px;")  Comunidades locales
               p.mt-4 Siempre será un valor agregado vincular a las personas que residen o son parte del lugar. Por ejemplo, incentivar a que el visitante compre alguna artesanía, o conozca cómo se elabora algún producto local. 
@@ -207,7 +207,7 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/16.png')})`}" style="background-color:#EB6F2D;")
-              p.text-center.text-white(style="position:absolute;width:100%;background-color:#EB6F2D;bottom:-40px;padding:1rem;border-radius:0px 0px 50px 50px;height:90px;") Gestores o administradores
+              p.text-center.text-white(style="position:absolute;width:100%;background-color:#EB6F2D;bottom:0px;padding:1rem;margin-bottom:0;height:90px;") Gestores o administradores
             .tarjeta-flip__contenido.p-4.p-xl-5(style="background-color:#FFD667;")
               h5(style="border-left:4px #12263F solid;padding-left:5px;")  Gestores o administradores
               p.mt-4 Son aquellos participantes encargados de la logística y programación de las actividades, determinan los horarios, número de visitantes, cantidad de itinerarios que se realizan en un día, materiales para las actividades. 
@@ -221,12 +221,12 @@
       h2#t_3_3 3.3   Estructura
 
     .row.cont_3_3(style="position:relative;")
-      .col-md-6.mb-4.mb-md-0(style="position:relative;place-self:center;")
+      .col-lg-6.mb-4.mb-lg-0(style="position:relative;place-self:center;")
         p(data-aos="fade-up") La estructura es la manera en la que se organiza la información, su función principalmente es facilitar que la audiencia tenga organizada la información a nivel mental y siga el hilo de la información sin perderse. En ella se determinan las paradas discursivas y el modelo de cómo se desea expresar el tema (Bazán, 2014).
         p.mt-4(data-aos="fade-up") La estructura debe contener entre otros aspectos formales, un conjunto de paradas discursivas y técnicas -detenerse- para desarrollar una técnica lúdica, para conocer los detalles o esencia del lugar y una parada donde mejor expresa la esencia del sitio, la que sería el clímax de la presentación. (PUP, 2013). 
         .cajon.color-primario.p-4.mt-4(style="position:relative;background-color:#FFD667;box-shadow:0px 0px 10px rgba(0,0,0,.2);")
           p.mb-0(data-aos="fade-up") Las estructuras para recorridos interpretativos son variadas en cuanto estructuras o secuencias que se pueden aplicar a cualquier mensaje. Lo importante, es seleccionar el más apto para la historia que se quiera contar. 
-      .col-md-6(style="position:relative;place-self:center;")
+      .col-lg-6(style="position:relative;place-self:center;")
         figure
           img(src="@/assets/curso/tema3/17.png" data-aos="fade-left")
 
@@ -235,63 +235,72 @@
     TabsB.color-acento-contenido.mt-5
       .py-4.py-md-5(titulo="Emparedado" :icono="require('@/assets/curso/tema3/18.png')")
         .row.p-4
-          .col-md-7.mb-4.mb-md-0(style="place-self:center")
+          .col-lg-7.mb-4.mb-lg-0(style="place-self:center")
             .row.p-3
-              .col-lg-4.mb-3.mb-md-0.text-center.p-1
-                .h5.p-2.mb-0(style="background-color:#FFB338;") Introducción
-                p.mb-0.p-2(style="background-color:#FFE6A1;") Diga su mensaje
-              .col-lg-4.mb-3.mb-md-0.text-center.p-1
-                .h5.p-2.mb-0(style="background-color:#FFB338;") Cuerpo
-                p.mb-0.p-2(style="background-color:#FFE6A1;") Elabore su mensaje
-              .col-lg-4.mb-3.mb-md-0.text-center.p-1
-                .h5.p-2.mb-0(style="background-color:#FFB338;") Conclusión
-                p.mb-0.p-2(style="background-color:#FFE6A1;") Repita su mensaje
+              .col-lg-4.mb-3.mb-lg-0.text-center.p-1
+                .h-100(style="background-color:#FFE6A1;")
+                  h5.p-2.mb-0(style="background-color:#FFB338;") Introducción
+                  p.mb-0.p-2(style="background-color:#FFE6A1;") Diga su mensaje
+              .col-lg-4.mb-3.mb-lg-0.text-center.p-1
+                .h-100(style="background-color:#FFE6A1;")
+                  h5.p-2.mb-0(style="background-color:#FFB338;") Cuerpo
+                  p.mb-0.p-2(style="background-color:#FFE6A1;") Elabore su mensaje
+              .col-lg-4.mb-3.mb-lg-0.text-center.p-1
+                .h-100(style="background-color:#FFE6A1;")
+                  h5.p-2.mb-0(style="background-color:#FFB338;") Conclusión
+                  p.mb-0.p-2(style="background-color:#FFE6A1;") Repita su mensaje
             h4.mt-5 Emparedado
             p.mt-4 Tiene una clausura fuerte porque cuando se repite el mensaje como conclusión, la audiencia siente que ha cerrado el círculo, esa sensación de que todo ha concluido sin dejar cosas pendientes.
-          .col-md-5(style="place-self:center")
+          .col-lg-5(style="place-self:center")
             figure
               img(src='@/assets/curso/tema3/21.png')
-      .py-4.py-md-5(titulo="Emergente" :icono="require('@/assets/curso/tema3/19.png')")
+      .py-4.py-lg-5(titulo="Emergente" :icono="require('@/assets/curso/tema3/19.png')")
         .row.p-4
-          .col-md-7.mb-4.mb-md-0(style="place-self:center")
+          .col-lg-7.mb-4.mb-lg-0(style="place-self:center")
             .row.p-3
-              .col-lg-4.mb-3.mb-md-0.text-center.p-1
-                .h5.p-2.mb-0(style="background-color:#FFB338;") Introducción
-                p.mb-0.p-2(style="background-color:#FFE6A1;min-height:70px;") Oriente a la audiencia hacia su mensaje
-              .col-lg-4.mb-3.mb-md-0.text-center.p-1
-                .h5.p-2.mb-0(style="background-color:#FFB338;") Cuerpo
-                p.mb-0.p-2(style="background-color:#FFE6A1;min-height:70px;") Elabore su mensaje
-              .col-lg-4.mb-3.mb-md-0.text-center.p-1
-                .h5.p-2.mb-0(style="background-color:#FFB338;") Conclusión
-                p.mb-0.p-2(style="background-color:#FFE6A1;min-height:70px;") Diga y concluya con su mensaje 
+              .col-lg-4.mb-3.mb-lg-0.text-center.p-1
+                .h-100(style="background-color:#FFE6A1;")
+                  h5.p-2.mb-0(style="background-color:#FFB338;") Introducción
+                  p.mb-0.p-2(style="background-color:#FFE6A1;") Oriente a la audiencia hacia su mensaje
+              .col-lg-4.mb-3.mb-lg-0.text-center.p-1
+                .h-100(style="background-color:#FFE6A1;")
+                  h5.p-2.mb-0(style="background-color:#FFB338;") Cuerpo
+                  p.mb-0.p-2(style="background-color:#FFE6A1;") Elabore su mensaje
+              .col-lg-4.mb-3.mb-lg-0.text-center.p-1
+                .h-100(style="background-color:#FFE6A1;")
+                  h5.p-2.mb-0(style="background-color:#FFB338;") Conclusión
+                  p.mb-0.p-2(style="background-color:#FFE6A1;") Diga y concluya con su mensaje 
             h4.mt-5 Emergente
             p.mt-4 Un chiste donde la conclusión o respuesta es el mensaje. Toda la presentación construye la conclusión o el mensaje emerge durante toda la presentación.
-          .col-md-5(style="place-self:center")
+          .col-lg-5(style="place-self:center")
             figure
               img(src='@/assets/curso/tema3/22.png')
-      .py-4.py-md-5(titulo="Implícito" :icono="require('@/assets/curso/tema3/20.png')")
+      .py-4.py-lg-5(titulo="Implícito" :icono="require('@/assets/curso/tema3/20.png')")
         .row.p-4
-          .col-md-7.mb-4.mb-md-0(style="place-self:center")
+          .col-lg-7.mb-4.mb-lg-0(style="place-self:center")
             .row.p-3
-              .col-lg-4.mb-3.mb-md-0.text-center.p-1
-                .h5.p-2.mb-0(style="background-color:#FFB338;") Introducción
-                p.mb-0.p-2(style="background-color:#FFE6A1;min-height:70px;") Oriente a la audiencia hacia su mensaje
-              .col-lg-4.mb-3.mb-md-0.text-center.p-1
-                .h5.p-2.mb-0(style="background-color:#FFB338;") Cuerpo
-                p.mb-0.p-2(style="background-color:#FFE6A1;min-height:70px;") Elabore su mensaje
-              .col-lg-4.mb-3.mb-md-0.text-center.p-1
-                .h5.p-2.mb-0(style="background-color:#FFB338;") Conclusión
-                p.mb-0.p-2(style="background-color:#FFE6A1;min-height:70px;") Refuerce su mensaje sin decirlo directamente 
+              .col-lg-4.mb-3.mb-lg-0.text-center.p-1
+                .h-100(style="background-color:#FFE6A1;")
+                  h5.p-2.mb-0(style="background-color:#FFB338;") Introducción
+                  p.mb-0.p-2(style="background-color:#FFE6A1;") Oriente a la audiencia hacia su mensaje
+              .col-lg-4.mb-3.mb-lg-0.text-center.p-1
+                .h-100(style="background-color:#FFE6A1;")
+                  h5.p-2.mb-0(style="background-color:#FFB338;") Cuerpo
+                  p.mb-0.p-2(style="background-color:#FFE6A1;") Elabore su mensaje
+              .col-lg-4.mb-3.mb-lg-0.text-center.p-1
+                .h-100(style="background-color:#FFE6A1;")
+                  h5.p-2.mb-0(style="background-color:#FFB338;") Conclusión
+                  p.mb-0.p-2(style="background-color:#FFE6A1;") Refuerce su mensaje sin decirlo directamente 
             h4.mt-5 Implícito
             p.mt-4 La gran mayoría de historias y literatura no dicen directamente la moraleja o mensaje. 
-          .col-md-5(style="place-self:center")
+          .col-lg-5(style="place-self:center")
             figure
               img(src='@/assets/curso/tema3/23.png')
 
     p.mt-5(data-aos="fade-up") Otra forma de realizar recorridos interpretativos es usando estructuras, que para este caso se denominan secuencias: 
 
     .row.mt-5
-      .col-md-6.mb-4.mb-md-0
+      .col-lg-6.mb-4.mb-lg-0
         LineaTiempoD.color-secundario.mt-5
           p(numero="1" titulo="Secuencia cronológica") Un orden cronológico es un orden establecido en función de una sucesión temporal. La expresión suele utilizarse para dar cuenta de sucesos históricos reales o narraciones ficticias en donde los eventos son presentados en un orden temporal virtual. #[br] Es una de las estructuras más básicas es ordenar las paradas según su cronología. Una especie de línea de tiempo. 
           p(numero="2" titulo="Secuencia anacrónica")  Esta secuencia en lugar de seguir una cronología, comienza en el medio o final de la historia contada. Es decir, que resulta incongruente respecto a la época en la cual se presenta.
@@ -300,7 +309,7 @@
           p(numero="5" titulo="Secuencia paralela") El término historias o secuencias paralelas, también denominadas narraciones paralelas o tramas paralelas, tiene una estructura de historias en la que el escritor incluye dos o más narrativas separadas vinculadas por un personaje, evento o tema común. Que se cuentan de manera simultanea y paralelas que no se cruzan, sino hasta el final.
           p(numero="6" titulo="Secuencia enigma revelador") Esta secuencia comienza con un enigma o pregunta provocativa y mediante las paradas revela pistas hasta contestar el enigma.
           p(numero="7" titulo="Secuencia disonancia cognoscitiva") En esta secuencia la estrategia es provocar incomodidad entre los participantes y luego ofrecerles un remedio para reducir la incomodidad o disonancia que siente. 
-      .col-md-6
+      .col-lg-6
         figure
           img(src="@/assets/curso/tema3/24.png" data-aos="fade-left")
 
@@ -386,4 +395,7 @@ li.aos-init.aos-animate::marker
   background-color: #C3E2FD
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__col-number span
   color: #12263F !important
+@media only screen and (max-width: 992px)
+  .img-infografica__item__numero span
+    display: none
 </style>

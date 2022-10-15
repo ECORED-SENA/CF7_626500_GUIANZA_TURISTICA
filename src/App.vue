@@ -59,4 +59,14 @@ export default {
   padding: 0 !important
   padding-top: 3rem !important
   margin-bottom: -7px
+.banner-principal-decorativo-2
+  top: 70% !important
+  right: 78% !important
+  -webkit-animation: float1 3.5s ease-in-out infinite alternate
+  animation: float1 3.5s ease-in-out infinite alternate
+.banner-principal-decorativo-3
+  top: 20% !important
+  right: 2% !important
+  -webkit-animation: float1 3.5s ease-in-out infinite alternate
+  animation: float1 3.5s ease-in-out infinite alternate
 </style>

@@ -8,20 +8,20 @@
       h1 Técnicas de interpretación
 
     .row.cont_4_1(style="position:relative;")
-      .col-md-6.mb-4.mb-md-0(style="position:relative;place-self:center;")
+      .col-lg-6.order-2.order-lg-0(style="position:relative;place-self:center;")
         p(data-aos="fade-up") Luego de haber definido lo que se desea hacer en el territorio, se plantea el cómo ejecutarlo y para ello existen técnicas de interpretación que buscan brindar conocimiento al público al igual que generar una conexión a través de una comunicación más amena que invite a la participación.
         p.mt-4(data-aos="fade-up") Las técnicas permiten enlazar los recursos tangibles de un espacio con los significados intangibles que representan. Por ejemplo: usar relatos o comparaciones pueden proporcionar al visitante la oportunidad de ver el recurso desde una óptica distinta, no limitada a la información, más bien lo puede llevar a generar interrogantes, a sensibilizarse o preocuparse por el recurso. 
         .cajon.color-primario.p-4.mt-4(style="position:relative;background-color:#FFD667;box-shadow:0px 0px 10px rgba(0,0,0,.2);")
           p.mb-0(data-aos="fade-up") “Algunos ejemplos de las técnicas interpretativas son las siguientes: cuentos, citas de textos importantes, desarrollo de actividades prácticas, uso del humor, comparaciones y analogías, demostraciones, preguntas y respuestas” (Mendoza, Martínez  Arévalo, 2011)
-      .col-md-6(style="position:relative;place-self:center;")
+      .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-0(style="position:relative;place-self:center;")
         figure
           img(src="@/assets/curso/tema4/1.png" data-aos="fade-left")
 
     .row.mt-5
-      .col-md-6.mb-4.mb-md-0
+      .col-lg-6.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema4/2.png" data-aos="fade-right")
-      .col-md-6
+      .col-lg-6
         p(data-aos="fade-up") Recomendaciones para tener en cuenta:
         ul.lista-ul.mt-4(style="position:relative")
           li(data-aos="fade-up")
@@ -64,11 +64,11 @@
       h2#t_4_2 4.2   Conocimiento de recursos
 
     .row.cont_4_1(style="position:relative;")
-      .col-md-6.mb-4.mb-md-0(style="position:relative;place-self:center;")
+      .col-lg-6.mb-4.mb-lg-0(style="position:relative;place-self:center;")
         p(data-aos="fade-up") Los intérpretes deben conocer los recursos lo suficiente como para hablar con claridad de ellos. En manos del intérprete está influir sobre el visitante, sensibilizarlo, provocarlo, estimularlo y llevarlo a tomar decisiones o actuar frente al lugar, esto se logra cuando el lenguaje interpretativo impacta sobre el visitante.  El intérprete debe conocer los distintos significados inherentes al lugar, pero también su fragilidad y otros aspectos que propiciará en el público receptor la actitud que busca. Lo anterior solo se puede lograr teniendo un conocimiento sólido y actualizado del recurso, que se convertirá en la base para los otros servicios interpretativos. 
         .cajon.color-primario.p-4.mt-4(style="position:relative;background-color:#FFD667;box-shadow:0px 0px 10px rgba(0,0,0,.2);")
           p.mb-0(data-aos="fade-up") Cuando se desea hacer un recorrido se deben conocer los rasgos tangibles y conceptos asociados del lugar, recurso o atractivo, su contexto, sus valores, su historia en el pasado y su actualidad, los puntos de vista que hay sobre él mismo y con todo ello, el guía debe tener la habilidad de interpretarlas para todos los visitantes, evitando la exageración o el enfoque de información desde su punto de vista y no desde los datos exactos que encontró previamente. También, es importante que el conocimiento se use a través de relatos que permitan la discusión entre los visitantes, sobre los valores humanos, los logros, los conflictos, las ideas y las ambigüedades; de nada sirve el conocimiento si solo se imparte en relatos vacíos que no invitan al debate. 
-      .col-md-6(style="position:relative;place-self:center;")
+      .col-lg-6(style="position:relative;place-self:center;")
         figure
           img(src="@/assets/curso/tema4/5.png" data-aos="fade-left")
 

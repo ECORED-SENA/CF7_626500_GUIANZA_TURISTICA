@@ -8,12 +8,12 @@
       h1 Planificación interpretativa
 
     .row.cont_2_1(style="position:relative;")
-      .col-md-6.mb-4.mb-md-0(style="position:relative;place-self:center;")
+      .col-lg-6.mb-4.mb-lg-0(style="position:relative;place-self:center;")
         p(data-aos="fade-up") Para presentarle a los visitantes un lugar de importancia patrimonial, bien sea natural o cultural, se requiere de un proceso de planificación que conlleve a mostrar la oferta de manera ordenada y racional, de esta forma llegar al resultado deseado que es la “interpretación del patrimonio visitado”, lo que se traduce en unos visitantes que comprenden el significado del sitio, lo aprecian y lo disfrutan.
         p.mt-4(data-aos="fade-up") Esta planificación le permitirá al guía, tener claras las infraestructuras y medios de comunicación in situ que lograrán comunicar la información del atractivo al visitante, de forma organizada y coherente.
         .cajon.color-primario.p-4.mt-4(style="position:relative;background-color:#FFD667;box-shadow:0px 0px 10px rgba(0,0,0,.2);")
           p.mb-0(data-aos="fade-up") La planificación interpretativa entonces, es un proceso de complejidad que tiene en cuenta las diferentes necesidades y oportunidades para la interpretación y presentación del patrimonio, planteando soluciones racionales y viables. Idealmente, este proceso se debe llevar a cabo en cualquier propuesta de interpretación, bien sea un recorrido auto guiado o en la construcción de un centro de visitantes con exposiciones.
-      .col-md-6(style="position:relative;place-self:center;")
+      .col-lg-6(style="position:relative;place-self:center;")
         figure
           img(src="@/assets/curso/tema2/1.png" data-aos="fade-left")
 
@@ -38,7 +38,7 @@
 
     br
     .row.mt-5
-      .col-md-6.mb-4.mb-md-0(style="place-self:center;")
+      .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
         p(data-aos="fade-up") Según autores expertos, para presentar mensajes interpretativos se utilizan los medios del mismo orden que los métodos y procedimientos para tal fin; se incluyen numerosas técnicas participativas o medios interactivos que se eligen de acuerdo con las necesidades y el tipo de público visitante. Entre los medios más usados de acuerdo con expertos, se encuentran:
         ul.lista-ul.mt-4(style="position:relative")
           li(data-aos="fade-up")
@@ -53,23 +53,23 @@
             p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] El uso de tecnologías.
         .cajon.color-primario.p-4.mt-5(style="position:relative;background-color:#FFD667;box-shadow:0px 0px 10px rgba(0,0,0,.2);")
           p.mb-0(data-aos="fade-up") Las técnicas interpretativas, tales como las comparaciones, las analogías, las actividades prácticas o los juegos, además de facilitar la comprensión, están concebidas para inspirar o provocar curiosidad, simpatía, asombro, serenidad o alegría. 
-      .col-md-6(style="place-self:center;")
+      .col-lg-6(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema2/4.png" data-aos="fade-left")
 
     p.mt-5(data-aos="fade-up") Dentro de la planificación interpretativa es importante identificar una serie de elementos primordiales para desarrollar un plan eficiente que permita la mejora continua en la experiencia que tiene el turista en un destino determinado. Para lograr esto, es fundamental seguir los siguientes requerimientos para establecer una planificación interpretativa según Morales (s.f.), como se indica en el siguiente recurso educativo:
 
-    SlyderA.slydera1.mt-5.p-5(tipo="b")
-      .row
-        .col-md-4.mb-4.mb-md-0
+    SlyderA.slydera1.mt-5(tipo="b")
+      .row.p-4
+        .col-lg-4.mb-4.mb-lg-0
           h4 Situación Inicial
           p.mt-5 Se debe analizar el patrimonio que se va a intervenir; identificar las necesidades que tiene el lugar.
           p.mt-4 Reconocimiento inicial de la zona. Investigar en documentos del lugar, indagar con la comunidad; hacer un plan de trabajo, definir los tiempos de realización de la planificación interpretativa.
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema2/6.png', alt='')
-      .row
-        .col-md-4.mb-4.mb-md-0
+      .row.p-4
+        .col-lg-4.mb-4.mb-lg-0
           h4 Formulación de Objetivos de Planificación
           p.mt-5 Se debe redactar qué se pretende conseguir con la planificación y con la posterior puesta en funcionamiento de unos servicios interpretativos.  A su vez, debe contener a quién va dirigido, para qué, cómo, cuándo, dónde y cómo se va a evaluar.
           p.mt-4 Algunos ejemplos de objetivos son los siguientes:
@@ -80,11 +80,11 @@
               p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] #[strong De servicio:] se centran en la infraestructura y en el talento humano que desarrolla la interpretación.
             li(data-aos="fade-up")
               p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] #[strong De comunicación:] da a conocer el significado del destino.
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema2/7.png', alt='')
-      .row
-        .col-md-4.mb-4.mb-md-0
+      .row.p-4
+        .col-lg-4.mb-4.mb-lg-0
           h4 Recopilación de Información
           p.mt-5 Es necesario contar con planos y mapas de la zona a intervenir. Se debe seleccionar la información de acuerdo a su relevancia y aplicación dentro del plan interpretativo. Contar con información técnica. 
           ul.lista-ul.mt-4(style="position:relative")
@@ -92,11 +92,11 @@
               p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Identificar aquellos valores relevantes del patrimonio a intervenir.
             li(data-aos="fade-up")
               p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Definir los usuarios potenciales.
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema2/8.png', alt='')
-      .row
-        .col-md-4.mb-4.mb-md-0
+      .row.p-4
+        .col-lg-4.mb-4.mb-lg-0
           h4 Análisis
           p.mt-5 Utilizando los datos obtenidos en la etapa anterior se procede a analizar diversos aspectos:
           ul.lista-ul.mt-4(style="position:relative")
@@ -122,40 +122,40 @@
               p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Selección de contenidos.
             li(data-aos="fade-up")
               p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Posibles medios e instalaciones interpretativas.
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema2/9.png', alt='')
-      .row
-        .col-md-4.mb-4.mb-md-0
+      .row.p-4
+        .col-lg-4.mb-4.mb-lg-0
           h4 Síntesis
           p.mt-5 Se deben identificar las principales acciones que se harán de acuerdo a los objetivos planteados.
           p.mt-4  De acuerdo al grado de intervención en el patrimonio se deben plantear las diferentes reuniones de acercamiento a las personas implicadas en el plan interpretativo y llegar a acuerdos. #[br] Se hacen los primeros borradores del plan interpretativo.
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema2/10.png', alt='')
-      .row
-        .col-md-4.mb-4.mb-md-0
+      .row.p-4
+        .col-lg-4.mb-4.mb-lg-0
           h4 El Plan
           p.mt-5 Este plan es un documento estático que permite modificaciones de acuerdo al proceso de implementación del plan y también permite ajustes cuando sean necesarios.
           p.mt-4 El documento deberá estar sometido a revisiones y actualizaciones. Los parámetros y directrices del plan deben estar organizados y serán flexibles de acuerdo a las necesidades y objetivos planteados.
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema2/11.png', alt='')
-      .row
-        .col-md-4.mb-4.mb-md-0
+      .row.p-4
+        .col-lg-4.mb-4.mb-lg-0
           h4 Ejecución
           p.mt-5 En este punto se muestran los diseños específicos de la intervención que se hará en el lugar. Se examinan los diferentes proyectos y el presupuesto específico que se requiere. 
           p.mt-4 Se ponen en marcha los diferentes servicios interpretativos, planteados en el plan interpretativo. 
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema2/12.png', alt='')
-      .row
-        .col-md-4.mb-4.mb-md-0
+      .row.p-4
+        .col-lg-4.mb-4.mb-lg-0
           h4 Evaluación y Seguimiento
           p.mt-5 Luego del desarrollo del plan, se debe evaluar lo ejecutado teniendo en cuenta los objetivos que se habían planteado inicialmente. Evaluar la eficiencia de los medios, la efectividad en la entrega del mensaje, la pertinencia de los contenidos, el impacto ambiental, el estado presupuestario, el impacto sobre la infraestructura.
           p.mt-4 Al final de este punto se debe realizar un seguimiento a la evaluación con el fin de definir los mejores métodos e indicadores de efectividad.
           p.mt-4 Es importante evaluar la captación del mensaje por parte de los visitantes para conocer el impacto del proceso interpretativo
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema2/13.png', alt='')
 
@@ -163,7 +163,7 @@
 
     .cont_tema2_3.mt-5(style="position:relative")
       .row.cont_magic1(style="position:relative")
-        .col-lg-3.mb-3.mb-lg-0.ps-4.pe-4(style="place-self:center")
+        .col-lg-3.mb-3.mb-lg-0.ps-4.pe-4.cont_image_magic(style="place-self:center")
           figure.text-center
             img(src="@/assets/curso/tema2/14.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:250px;")
         .col-lg-9.p-5(style="place-self:end")
@@ -241,4 +241,20 @@ li.aos-init.aos-animate::marker
   background-position: bottom
   background-repeat: no-repeat
   background-position: 0px 90%
+.slydera1.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  padding: 1rem 1.5rem
+@media screen and (max-width: 720px)
+  .slydera1 .slyder-a__bullets__item
+    margin: 0 4px !important
+@media screen and (max-width: 1400px)
+  .cont_magic1
+    background-position: 0px 70% !important
+@media screen and (max-width: 1200px)
+  .cont_magic1 .cont_image_magic img
+    bottom: -29px
+@media screen and (max-width: 992px)
+  .cont_magic1
+    background-position: 0px 100% !important
+  .cont_magic1 .col-lg-9
+    padding-top: 0 !important
 </style>
