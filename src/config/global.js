@@ -174,7 +174,7 @@ export default {
     },
     {
       referencia:
-        'Morales M., J. (s.f.). Pasos para establecer la planificación interpretativa.',
+        'Morales M., J. (s.f.). La planificación interpretativa asegura la excelencia en interpretación.',
       link: 'https://www.unich.edu.mx/wp-content/uploads/2014/01/31Y32P-1.PDF',
     },
     {
@@ -186,8 +186,7 @@ export default {
     {
       referencia:
         'Moreira-Wachtel, S., y Tréllez S. (2013). La interpretación del patrimonio natural y cultural Una visión intercultural y participativa (Primera Edición). ',
-      link:
-        'https://www.eco-consult.com/fileadmin/user_upload/pdf/publications/interpretacio%C3%ACn_patrimonio_web.pdf',
+      link: 'https://repositoriodigital.minam.gob.pe/handle/123456789/134',
     },
     {
       referencia:
@@ -223,7 +222,7 @@ export default {
     {
       termino: 'Medios interactivos',
       significado:
-        'Son aquellos que permiten que el visitante elija y ‘navegue’ entre varias opciones, que varían su presentación de acuerdo a lo que los diseñadores presuponen sobre las preguntas, respuestas y necesidades del visitante. la interactividad, como acción recíproca entre dos partes, debe permitir que exista la posibilidad de que dos sujetos de comunicación intercambien pareceres, de ida y vuelta;  esto sólo lo puede hacer una exhibición con soporte informático, sin embargo, la máxima expresión de la interactividad en interpretación es la relación que se establece entre el visitante y el intérprete( Morales Miranda, 2008).',
+        'Son aquellos que permiten que el visitante elija y ‘navegue’ entre varias opciones, que varían su presentación de acuerdo a lo que los diseñadores presuponen sobre las preguntas, respuestas y necesidades del visitante. La interactividad, como acción recíproca entre dos partes, debe permitir que exista la posibilidad de que dos sujetos de comunicación intercambien pareceres, de ida y vuelta;  esto sólo lo puede hacer una exhibición con soporte informático, sin embargo, la máxima expresión de la interactividad en interpretación es la relación que se establece entre el visitante y el intérprete (Morales Miranda, 2008).',
     },
     {
       termino: 'Medios interpretativos',
@@ -256,7 +255,7 @@ export default {
         'Dentro de este concepto quedan comprendidos los medios de comunicación, las estructuras, los programas, las tareas y la organización de la administración de un área o lugar, para transmitir el significado del sitio al público de forma interpretativa (Morales Miranda, 2008).',
     },
     {
-      termino: 'Técnicas ',
+      termino: 'Técnicas',
       significado:
         'Conjunto de procedimientos o recursos que se usan en un arte, en una ciencia o en una actividad determinada, en especial cuando se adquieren por medio de su práctica y requieren habilidad (Diccionario <em>Oxford Languages</em>, s.f.)',
     },

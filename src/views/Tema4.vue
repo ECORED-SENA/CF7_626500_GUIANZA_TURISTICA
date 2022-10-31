@@ -49,7 +49,7 @@
 
     .col-md-10.m-auto.mt-5
       .titulo-sexto.color-acento-contenido
-        h5.d-block Figura 4
+        h5.d-block Figura 3
         span Ecuación de la oportunidad interpretativa
       figure.mt-4
         img(src="@/assets/curso/tema4/4.svg" data-aos="zoom-in-up")

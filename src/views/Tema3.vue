@@ -15,10 +15,10 @@
         .bloque-texto-g__texto.p-5(style="position:relative")
           p.mb-0 #[strong En el trabajo de interpretación, cuando se menciona el mensaje, se relaciona directamente al patrimonio y se hace referencia a una forma de comunicación creativa que es diferente, estratégica, planeada, que además busca la receptividad y la interacción con el público al que va dirigido. Es por ello que la interpretación se define como el arte de revelar in situ los valores naturales, culturales y etnográficos a un público determinado, turistas, estudiantes, familias, entre otros (Serantes, 2010). Lo anterior con una comunicación estratégica que tiene por objetivo conectar emocionalmente al visitante con el recurso turístico para que él, logrando la significación propia, que lo aprecie y lo disfrute.]
 
-      p.mt-5(data-aos="fade-up" style="position:relative") Cuando se pretende diseñar un programa o actividad interpretativa es fundamental tener en cuenta los elementos que se establecen en la siguiente figura 3: 
+      p.mt-5(data-aos="fade-up" style="position:relative") Cuando se pretende diseñar un programa o actividad interpretativa es fundamental tener en cuenta los elementos que se establecen a continuación: 
 
       .titulo-sexto.color-acento-contenido.mt-5(style="position:relative")
-        h5.d-block Figura 3
+        h5.d-block
         span Elementos para diseñar un programa o actividad interpretativa
 
       .row.mt-5
@@ -60,7 +60,7 @@
           .row(titulo="Temática")
             p Tener un tema o idea clara, es donde se sintetiza la idea principal del mensaje, en lo posible que sea muy potente, con el fin de sensibilizar al visitante.
           .row(titulo="Ejemplo  de mensaje interpretativo")
-            p Interpretar es el arte de contar una buena historia
+            p Interpretar es el arte de contar una buena historia.
       .col-lg-6(style="place-self:center")
         figure
           img(src="@/assets/curso/tema3/4.png" data-aos="fade-left")
@@ -70,9 +70,9 @@
         figure
           img(src="@/assets/curso/tema3/5.png" data-aos="fade-right")
       .col-lg-6.order-1.order-lg-0(style="position:relative;place-self:center;")
-        p(data-aos="fade-up") El mensaje interpretativo debe estar construido de tal manera que llame la atención y curiosidad del público visitante, puede estar relacionado con sus vidas y experiencias diarias, al final revela su esencia o parte fundamental, haciendo referencia a la totalidad del bien patrimonial interpretado, por ejemplo: estableciendo conexiones con la historia de una comunidad. Pueden estar planteados desde los objetivos que se quieren alcanzar con el público visitante, qué se quiere que sepan, qué s quiere que sientan y qué se quiere que hagan. 
+        p(data-aos="fade-up") El mensaje interpretativo debe estar construido de tal manera que llame la atención y curiosidad del público visitante, puede estar relacionado con sus vidas y experiencias diarias, al final revela su esencia o parte fundamental, haciendo referencia a la totalidad del bien patrimonial interpretado, por ejemplo: estableciendo conexiones con la historia de una comunidad. Pueden estar planteados desde los objetivos que se quieren alcanzar con el público visitante, qué se quiere que sepan, qué se quiere que sientan y qué se quiere que hagan. 
         .cajon.color-primario.p-4.mt-4(style="position:relative;background-color:#FFD667;box-shadow:0px 0px 10px rgba(0,0,0,.2);")
-          p.mb-0(data-aos="fade-up") “Para estructurar el mensaje interpretativo se recomienda trabajarlo entorno a una idea, (oración-tema) recordable. Una oración completa, con sujeto, verbo y predicado, que sintetice el mensaje; ya que es como el titular de un periódico, el cual sirve también para dar título a paneles, folletos, y es fundamental para las actividades que realiza el guía” (Bazán, 2014).
+          p.mb-0(data-aos="fade-up") “Para estructurar el mensaje interpretativo se recomienda trabajarlo en torno a una idea, (oración-tema) recordable. Una oración completa, con sujeto, verbo y predicado, que sintetice el mensaje; ya que es como el titular de un periódico, el cual sirve también para dar título a paneles, folletos, y es fundamental para las actividades que realiza el guía” (Bazán, 2014).
 
     p.mt-5(data-aos="fade-up") Otros aspectos para tener en cuenta a la hora de construir el mensaje interpretativo son:
 
@@ -108,7 +108,7 @@
             img(src='@/assets/curso/tema3/9.png', alt='')
       .row.p-4
         .col-lg-4.mb-4.mb-lg-0
-          h4 Utilizar los mecanismo sensoriales para generar impacto.
+          h4 Utilizar los mecanismos sensoriales para generar impacto.
           p.mt-5 Se debe realizar una invitación a utilizar los sentidos o a hacer algo con el mensaje, bien sea transmitido por el guía o leído a través de un folleto.
         .col-lg-8
           figure
@@ -140,7 +140,7 @@
         p.mt-3(style="color:#12263F;") La interpretación no es sólo información, también contiene aspectos afectivos: la idea es lograr que los visitantes puedan usar su imaginación y conectar mental y emocionalmente con lo que se les están contando a fin de transportarlos de manera vivencial. Es decir, la interpretación se dirige al corazón, más que a la razón; teniendo en cuenta que debe corresponder a hechos reales, actuales y con expresados de forma prolija.
       .tarjeta.color-acento-botones.p-4(x="23%" y="32%" numero="Relevancia al individuo")
         h4.mb-0.p-2(style="color:#12263F;border-left:4px #12263F solid;") Relevancia al individuo
-        p.mt-3(style="color:#12263F;") Para dar a conocer el mensaje es necesario saber qué busca el visitante, qué conocimientos tiene sobre el lugar o recurso etc. La información debe ser relevante y debe estar relacionada con experiencias de la vida cotidiana o personalidad del visitante.
+        p.mt-3(style="color:#12263F;") Para dar a conocer el mensaje es necesario saber qué busca el visitante, qué conocimientos tiene sobre el lugar o recurso, etc. La información debe ser relevante y debe estar relacionada con experiencias de la vida cotidiana o personalidad del visitante.
       .tarjeta.color-acento-botones.p-4(x="78%" y="35%" numero="Interpretación busca provocación")
         h4.mb-0.p-2(style="color:#12263F;border-left:4px #12263F solid;") Interpretación busca provocación
         p.mt-3(style="color:#12263F;") La interpretación busca la provocación y no la instrucción: esto quiere decir que se busca provocar un comportamiento, una reacción o una reacción positiva en la audiencia y no sólo generar conocimiento. El guía debe garantizar una interrelación con el visitante basada en un trato humano donde se puedan resolver todas las dudas y donde se le estimule a conservar el destino.
@@ -149,7 +149,7 @@
         p.mt-3(style="color:#12263F;") La interpretación debe intentar presentar un todo en lugar de una parte. El tema interpretativo es la idea central del discurso interpretativo y todos los textos o mensajes que se den, deben servir para reforzar dicho tema. La audiencia debería poder recordar fácilmente la interpretación después de una visita o presentación.
       .tarjeta.color-acento-botones.p-4(x="65%" y="75%" numero="Interpretación se relaciona con la edad")
         h4.mb-0.p-2(style="color:#12263F;border-left:4px #12263F solid;") Interpretación se relaciona con la edad
-        p.mt-3(style="color:#12263F;") La interpretación enfocada en niños no puede ser una simplificación o resumen de la interpretación para adultos. Para este tipo de público se requieren recursos, métodos y técnicas particulares a fin de cautivar su interés; se puede por ejemplo darles una pequeña responsabilidad durante la visita para que ayuden con algo; proponerles una broma, un juego etc. La idea es tener actividades y equipamientos acorde a cada edad.
+        p.mt-3(style="color:#12263F;") La interpretación enfocada en niños no puede ser una simplificación o resumen de la interpretación para adultos. Para este tipo de público se requieren recursos, métodos y técnicas particulares a fin de cautivar su interés; se puede por ejemplo darles una pequeña responsabilidad durante la visita para que ayuden con algo; proponerles una broma, un juego, etc. La idea es tener actividades y equipamientos acordes a cada edad.
 
     p.mt-5(data-aos="fade-up")     Con el fin de interiorizar los principios de la interpretación se resumen aquí en 3 términos: 
 
@@ -157,7 +157,7 @@
       .col-lg-4.mb-4.mb-lg-0
         .p-5(style="background-color:#FFD667;border-radius:30px;position:relative;height:100%;")
           h5(data-aos="fade-up") Provocar:
-          p.mt-4(data-aos="fade-up") Es despertar el interés y la curiosidad de nuestros visitantes, intentado generar nuevas ideas o pensamientos, y generar un vínculo a partir de la selección del tema, el lenguaje a emplear, y las preguntas.
+          p.mt-4(data-aos="fade-up") Es despertar el interés y la curiosidad de nuestros visitantes, intentando generar nuevas ideas o pensamientos, y generar un vínculo a partir de la selección del tema, el lenguaje a emplear, y las preguntas.
       .col-lg-4.mb-4.mb-lg-0
         .p-5(style="background-color:#FFD667;border-radius:30px;position:relative;height:100%;")
           h5(data-aos="fade-up") Relacionar:
@@ -306,7 +306,7 @@
           p(numero="2" titulo="Secuencia anacrónica")  Esta secuencia en lugar de seguir una cronología, comienza en el medio o final de la historia contada. Es decir, que resulta incongruente respecto a la época en la cual se presenta.
           p(numero="3" titulo="Secuencia argumento científico") La estructura en esta secuencia es similar a la de un argumento científico. Es un procedimiento cognitivo lingüístico que da lugar a la producción de un texto explicativo, en el que pueden reconocerse cuatro componentes: pragmática, retórica, teórica y lógica.
           p(numero="4" titulo="Secuencia categórica") La secuencia categórica, como lo indica su nombre, contiene un número finito de categorías o grupos distintos. Los datos categóricos pueden no tener un orden lógico. Por ejemplo, los predictores categóricos incluyen sexo, tipo de material y método de pago. Es decir, por ejemplo, hablar de las plantas y presentarlas por categorías.
-          p(numero="5" titulo="Secuencia paralela") El término historias o secuencias paralelas, también denominadas narraciones paralelas o tramas paralelas, tiene una estructura de historias en la que el escritor incluye dos o más narrativas separadas vinculadas por un personaje, evento o tema común. Que se cuentan de manera simultanea y paralelas que no se cruzan, sino hasta el final.
+          p(numero="5" titulo="Secuencia paralela") El término historias o secuencias paralelas, también denominadas narraciones paralelas o tramas paralelas, tiene una estructura de historias en la que el escritor incluye dos o más narrativas separadas vinculadas por un personaje, evento o tema común. Que se cuentan de manera simultánea y paralelas que no se cruzan, sino hasta el final.
           p(numero="6" titulo="Secuencia enigma revelador") Esta secuencia comienza con un enigma o pregunta provocativa y mediante las paradas revela pistas hasta contestar el enigma.
           p(numero="7" titulo="Secuencia disonancia cognoscitiva") En esta secuencia la estrategia es provocar incomodidad entre los participantes y luego ofrecerles un remedio para reducir la incomodidad o disonancia que siente. 
       .col-lg-6

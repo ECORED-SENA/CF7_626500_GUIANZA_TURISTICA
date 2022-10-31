@@ -105,7 +105,7 @@
               .col(style="place-self:center")
                 h5.mb-0(data-aos="fade-up") ¿Qué escucha?
             .p-4.cont_tarjeta1(style="border:1px #707070 solid;border-bottom-left-radius:30px;min-height:280px;")
-              p(data-aos="fade-up") Gustos musicales, medios de comunicación que puedan llegar a influenciarlo; influenc que siga en las diferentes redes sociales, aquellos dolos que puede llegar a tener; también es bueno identificar aquellas marcas preferidas por este cliente ideal.
+              p(data-aos="fade-up") Gustos musicales, medios de comunicación que puedan llegar a influenciarlo; influenciadores que siga en las diferentes redes sociales, aquellos dolos que puede llegar a tener; también es bueno identificar aquellas marcas preferidas por este cliente ideal.
         .col-lg-4.mb-4.mb-lg-0
           .h-100
             .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;min-height:80px;")
@@ -187,13 +187,13 @@
               h4.text-center ¿Qué ofrecemos?
               ul.lista-ul.mt-3(style="position:relative")
                 li(data-aos="fade-up")
-                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Servicios Físicos o Tangibles
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Servicios Físicos o Tangibles.
                 li(data-aos="fade-up")
-                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Servicios Intangibles
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Servicios Intangibles.
                 li(data-aos="fade-up")
-                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Servicios Digitales
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Servicios Digitales.
                 li(data-aos="fade-up")
-                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Servicios Financieros
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Servicios Financieros.
       .col-lg-4.mb-5.mb-lg-0.mt-4.mt-lg-0
         h3.text-center(data-aos="fade-up") 2. Aliviadores de Frustraciones
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
@@ -204,9 +204,9 @@
               h4.text-center ¿Cómo se alivian?
               ul.lista-ul.mt-3(style="position:relative")
                 li(data-aos="fade-up")
-                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Centrarse en las frustraciones que le importan a los clientes
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Centrarse en las frustraciones que le importan a los clientes.
                 li(data-aos="fade-up")
-                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] No hace falta resolver todas las frustraciones del cliente
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] No hace falta resolver todas las frustraciones del cliente.
       .col-lg-4.mb-5.mb-lg-0.mt-4.mt-lg-0
         h3.text-center(data-aos="fade-up") 3. Creadores de Alegrías
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
@@ -217,9 +217,9 @@
               h4.text-center ¿Cómo crean alegrías?
               ul.lista-ul.mt-3(style="position:relative")
                 li(data-aos="fade-up")
-                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Marcan las diferencias en el mercado
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Marcan las diferencias en el mercado.
                 li(data-aos="fade-up")
-                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Generan alegrías en todos los niveles
+                  p.mb-0 #[i.fas.fa-paper-plane(style="color:#FF5900;border: 1px red solid;border-radius:50%;padding: .2rem;font-size:10px;")] Generan alegrías en todos los niveles.
 
     br
     p.mt-5(data-aos="fade-up") A continuación, se presenta un modelo de plantilla para representación simplificada de una situación actual o hipotética para hacer propuesta de valor de acuerdo con necesidades de clientes (ver figura 2):

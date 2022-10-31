@@ -172,7 +172,7 @@
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
-              p #[strong Enlace web.] Cartilla de Guías técnicas de proyectos de ecoturismo
+              p #[strong Enlace web.] Guías técnicas de proyectos de ecoturismo
 
 
 
@@ -257,4 +257,7 @@ li.aos-init.aos-animate::marker
     background-position: 0px 100% !important
   .cont_magic1 .col-lg-9
     padding-top: 0 !important
+@media only screen and (max-width: 720px)
+  .img-infografica__item__numero span
+    display: none
 </style>
