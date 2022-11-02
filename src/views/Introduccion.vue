@@ -12,7 +12,7 @@
       p(data-aos="fade-up" style="position:relative") Se da la bienvenida al componente formativo #[strong(style="color:#EB6F2D;") “El plan interpretativo del servicio guiado”.] Para comenzar el recorrido por el mismo, se debe observar el video que se muestra a continuación:
       figure.mt-5(style="position:relative")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/cf-kste5bZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/xfi1Wakonaw" title="El plan interpretativo del servicio guiado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 
 </template>
