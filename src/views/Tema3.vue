@@ -38,10 +38,10 @@
       p.mt-4(data-aos="fade-up" style="position:relative") Nota. Serantes, (2010).
 
       .row.mt-5
-        .col-md-6.mb-4.mb-md-0(style="place-self:center;position:relative")
+        .col-lg-6.mb-4.mb-lg-0(style="place-self:center;position:relative")
           figure
             img(src="@/assets/curso/tema3/3.png" data-aos="fade-right")
-        .col-md-6(style="place-self:center;position:relative")
+        .col-lg-6(style="place-self:center;position:relative")
           p(data-aos="fade-up") Para hacer efectivo el ejercicio interpretativo, se debe involucrar de manera directa al visitante con las características, rasgos o fenómenos de importancia de los bienes patrimoniales, siendo más efectivo el ejercicio si está mediado por un guía-intérprete, el cual debe tener el conocimiento, la creatividad y perspicacia para transmitir el mensaje interpretativo. Teniendo en cuenta que muchas veces el guía se enfrenta a públicos no cautivos los cuales fácilmente dejan de prestar atención, es fundamental crear un mensaje atractivo y fácil de comprender, el cual esté vinculado a un guion que motive al visitante a conocer más sobre el tema. (Perera y Betancourt, 2016).
 
     p.mt-5(data-aos="fade-up") Para construir un mensaje interpretativo y que este sea captado por los visitantes, se debe tener en cuenta  las condiciones técnicas que se presentan a continuación:
