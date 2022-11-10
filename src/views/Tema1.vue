@@ -22,20 +22,20 @@
       h2#t_1_1 1.1 Audiencia
 
     .row.cont_1_1(style="position:relative;")
-      .col-lg-6.mb-4.mb-lg-0(style="position:relative;place-self:center;")
+      .col-xl-6.mb-4.mb-xl-0(style="position:relative;place-self:center;")
         figure
           img(src="@/assets/curso/tema1/3.png" data-aos="fade-right")
-      .col-lg-6(style="position:relative;place-self:center;")
+      .col-xl-6(style="position:relative;place-self:center;")
         p(data-aos="fade-up") El guionaje turístico requiere de un ejercicio de identificación de las personas a quienes se les va a ofrecer un proceso interpretativo.  Es por esto que Mendoza O., Umbral M., y Arévalo M. (2011), afirman que “es esencial conocer lo mejor posible a la audiencia para diseñar actividades interpretativas que brinden experiencias agradables al visitante”. Si el intérprete desconoce a su público, es posible que no satisfaga sus necesidades y que se le imponga una interpretación cuando éste tal vez solo desee unos cuantos datos o una pequeña información. 
         .cajon.color-primario.p-4.mt-4(style="position:relative;background-color:#FFD667;box-shadow:0px 0px 10px rgba(0,0,0,.2);")
           p.mb-0(data-aos="fade-up") Brindar una experiencia grata al visitante y que éste tenga una conexión importante con el sitio, es necesario conocerlo y entender que tanto conocimiento tienen frente al destino visitado.
 
-    .row.mt-5.col-lg-10.m-auto
-      .col-lg-6.p-0(style="place-self:center;")
+    .row.mt-5.col-xl-10.m-auto
+      .col-xl-6.p-0(style="place-self:center;")
         .p-4(style="height:100%;background-color:#F3F9FF;")
           p(data-aos="fade-up") Mendoza O., y otros (2011) mencionan que un buen conocimiento de la audiencia, le permite al guía darse cuenta cuándo dejar que el visitante y el recurso interactúen por su cuenta y cuándo, cómo y dónde es conveniente el uso de la interpretación para ayudarle a descubrir nuevos o renovados significados en el recurso.
           p.mt-4(data-aos="fade-up") Con respecto a la manera en que se puede crear una buena “oportunidad interpretativa”, con las técnicas adecuadas, el tipo de información correcto a transmitir, el estilo y formato de su presentación, se debe conocer a los turistas a través de fuentes variadas como los estudios o estadísticas turísticas que muestran la frecuencia de visita y los usos del sitio. Cuanto más precisa sea esta información y los datos del origen, las necesidades, expectativas e intereses de la audiencia, más preciso y efectivo será el servicio interpretativo. Así mismo, es importante conocer quiénes no suelen visitar el sitio, ya que se convierten en una audiencia potencial que espera ser captada y convertida en visitantes reales.
-      .col-lg-6.p-0(style="place-self:center;")
+      .col-xl-6.p-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema1/4.png" data-aos="fade-left")
 
@@ -86,7 +86,7 @@
         span Aspectos del mapa de empatía
 
       .row.mt-5
-        .col-lg-4.mb-4.mb-lg-0.col-md-6.cont_tarjetas_largas
+        .col-lg-4.mb-4.col-md-6.cont_tarjetas_largas
           .h-100(style="border:1px #707070 solid;border-bottom-left-radius:30px;border-top-right-radius:30px;")
             .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;min-height:80px;")
               .col-auto(style="place-self:center")
@@ -96,7 +96,7 @@
                 h5.mb-0(data-aos="fade-up") ¿Qué ve?
             .p-4.cont_tarjeta1(style="min-height:280px;")
               p(data-aos="fade-up") Se refiere a lo que la persona observa en diferentes medios tecnológicos, como internet, redes sociales, televisión.
-        .col-lg-4.mb-4.mb-lg-0.col-md-6
+        .col-lg-4.mb-4.col-md-6
           .h-100(style="border:1px #707070 solid;border-bottom-left-radius:30px;border-top-right-radius:30px;")
             .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;min-height:80px;")
               .col-auto(style="place-self:center")
@@ -106,7 +106,7 @@
                 h5.mb-0(data-aos="fade-up") ¿Qué escucha?
             .p-4.cont_tarjeta1(style="min-height:280px;")
               p(data-aos="fade-up") Gustos musicales, medios de comunicación que puedan llegar a influenciarlo; influenciadores que siga en las diferentes redes sociales, aquellos dolos que puede llegar a tener; también es bueno identificar aquellas marcas preferidas por este cliente ideal.
-        .col-lg-4.mb-4.mb-lg-0.col-md-6
+        .col-lg-4.mb-4.col-md-6
           .h-100(style="border:1px #707070 solid;border-bottom-left-radius:30px;border-top-right-radius:30px;")
             .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;min-height:80px;")
               .col-auto(style="place-self:center")
@@ -117,7 +117,7 @@
             .p-4.cont_tarjeta1(style="min-height:280px;")
               p(data-aos="fade-up") Sus sueños, deseos, las preocupaciones, los miedos; es posible que el servicio que se le ofrece pueda ser beneficioso para la tranquilidad del cliente.
 
-        .col-lg-4.mb-4.mb-lg-0.col-md-6.mt-5.mt-md-0
+        .col-lg-4.mb-4.col-md-6
           .h-100(style="border:1px #707070 solid;border-bottom-left-radius:30px;border-top-right-radius:30px;")
             .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;min-height:80px;")
               .col-auto(style="place-self:center")
@@ -127,7 +127,7 @@
                 h5.mb-0(data-aos="fade-up") ¿Qué habla y hace?
             .p-4.cont_tarjeta1(style="min-height:280px;")
               p(data-aos="fade-up") Actividades que hace cotidianamente, sobre todo ls , ya que esta información será fundamental para poder orientar los mecanismos de publicidad y crear el servicio ideal para este cliente.
-        .col-lg-4.mb-4.mb-lg-0.col-md-6
+        .col-lg-4.mb-4.col-md-6
           .h-100(style="border:1px #707070 solid;border-bottom-left-radius:30px;border-top-right-radius:30px;")
             .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;min-height:80px;")
               .col-auto(style="place-self:center")
@@ -137,7 +137,7 @@
                 h5.mb-0(data-aos="fade-up") ¿Cuáles son sus dolores?
             .p-4.cont_tarjeta1(style="min-height:280px;")
               p(data-aos="fade-up") Los miedos, las frustraciones, los obstáculos que ha tenido para alcanzar las diferentes metas.
-        .col-lg-4.mb-4.mb-lg-0.col-md-6
+        .col-lg-4.mb-4.col-md-6
           .h-100(style="border:1px #707070 solid;border-bottom-left-radius:30px;border-top-right-radius:30px;")
             .row.p-2.m-0(style="background-color:#B7CEAC;border-top-right-radius:30px;min-height:80px;")
               .col-auto(style="place-self:center")

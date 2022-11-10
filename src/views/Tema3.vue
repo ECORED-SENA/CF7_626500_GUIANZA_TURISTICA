@@ -175,42 +175,16 @@
     p(data-aos="fade-up") La actividad interpretativa implica pensar en quienes se involucran en ella, cuando se tiene en cuenta todos los participantes es posible planear actividades que se encaminan a sus intereses y gustos pero que también involucran a las comunidades locales y todos los actores del proceso, como puede observarse en el siguiente recurso educativo:
 
     .row.mt-5
-      .col-lg-3.mb-4.mb-lg-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false" style="background-color:#FFD667;" data-aos="zoom-in-up")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/13.png')})`}" style="background-color:#FFD667;")
-              p.text-center(style="position:absolute;width:100%;background-color:#FFD667;bottom:0px;padding:1rem;margin-bottom:0;height:90px;") Público (visitantes, turistas, estudiantes, etc.)
-            .tarjeta-flip__contenido.p-4.p-xl-5(style="background-color:#FFD667;")
-              h5(style="border-left:4px #12263F solid;padding-left:5px;") Público (visitantes, turistas, estudiantes, etc.)
-              p.mt-4 Caracterizar el tipo de visitante de acuerdo a la edad, lugar de procedencia, estado físico, si tiene algún tipo de limitación de movilidad, entre otros. También se puede verificar si es un público cautivo o no cautivo, y partir por identificar sus intereses.
-      .col-lg-3.mb-4.mb-lg-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false" style="background-color:#406834;" data-aos="zoom-in-up")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/14.png')})`}" style="background-color:#406834;")
-              p.text-center.text-white(style="position:absolute;width:100%;background-color:#406834;bottom:0px;padding:1rem;margin-bottom:0;height:90px;") Guía- intérprete
-            .tarjeta-flip__contenido.p-4.p-xl-5(style="background-color:#FFD667;")
-              h5(style="border-left:4px #12263F solid;padding-left:5px;")  Guía- intérprete
-              p.mt-4 El guía-intérprete es el mediador entre el recurso y el visitante, debe tener un conocimiento grande de los recursos y del lugar para poder generar conexiones, y así mismo vincular a los visitantes con el patrimonio. 
-      .col-lg-3.mb-4.mb-lg-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false" style="background-color:#0387D0;" data-aos="zoom-in-up")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/15.png')})`}" style="background-color:#0387D0;")
-              p.text-center.text-white(style="position:absolute;width:100%;background-color:#0387D0;bottom:0px;padding:1rem;margin-bottom:0;height:90px;") Comunidades locales
-            .tarjeta-flip__contenido.p-4.p-xl-5(style="background-color:#FFD667;")
-              h5(style="border-left:4px #12263F solid;padding-left:5px;")  Comunidades locales
-              p.mt-4 Siempre será un valor agregado vincular a las personas que residen o son parte del lugar. Por ejemplo, incentivar a que el visitante compre alguna artesanía, o conozca cómo se elabora algún producto local. 
-      .col-lg-3.mb-4.mb-lg-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false" style="background-color:#EB6F2D;" data-aos="zoom-in-up")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/16.png')})`}" style="background-color:#EB6F2D;")
-              p.text-center.text-white(style="position:absolute;width:100%;background-color:#EB6F2D;bottom:0px;padding:1rem;margin-bottom:0;height:90px;") Gestores o administradores
-            .tarjeta-flip__contenido.p-4.p-xl-5(style="background-color:#FFD667;")
-              h5(style="border-left:4px #12263F solid;padding-left:5px;")  Gestores o administradores
-              p.mt-4 Son aquellos participantes encargados de la logística y programación de las actividades, determinan los horarios, número de visitantes, cantidad de itinerarios que se realizan en un día, materiales para las actividades. 
+      .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
+        LineaTiempoD.color-secundario
+          p(numero="1" titulo="Público (visitantes, turistas, estudiantes, etc.)") Caracterizar el tipo de visitante de acuerdo a la edad, lugar de procedencia, estado físico, si tiene algún tipo de limitación de movilidad, entre otros. También se puede verificar si es un público cautivo o no cautivo, y partir por identificar sus intereses.
+          p(numero="2" titulo="Guía- intérprete") El guía-intérprete es el mediador entre el recurso y el visitante, debe tener un conocimiento grande de los recursos y del lugar para poder generar conexiones, y así mismo vincular a los visitantes con el patrimonio. 
+          p(numero="3" titulo="Comunidades locales") Siempre será un valor agregado vincular a las personas que residen o son parte del lugar. Por ejemplo, incentivar a que el visitante compre alguna artesanía, o conozca cómo se elabora algún producto local. 
+          p(numero="4" titulo="Gestores o administradores") Son aquellos participantes encargados de la logística y programación de las actividades, determinan los horarios, número de visitantes, cantidad de itinerarios que se realizan en un día, materiales para las actividades. 
+      .col-lg-6(style="place-self:center")
+        figure
+          img(src="@/assets/curso/tema3/25.png" data-aos="fade-left")
+
 
     .cajon.color-primario.p-4.mt-5(style="position:relative;background-color:#FFD667;box-shadow:0px 0px 10px rgba(0,0,0,.2);")
       p.mb-0(data-aos="fade-up") Es fundamental que para un efectivo desarrollo de la actividad interpretativa exista una sinergia y cohesión en el trabajo que realizan los participantes. Además, los atractivos turísticos o bienes patrimoniales muchas veces cuentan con información de apoyo, el trabajo está en involucrar esos elementos al ejercicio interpretativo (Serantes, 2010).
@@ -300,8 +274,8 @@
     p.mt-5(data-aos="fade-up") Otra forma de realizar recorridos interpretativos es usando estructuras, que para este caso se denominan secuencias: 
 
     .row.mt-5
-      .col-lg-6.mb-4.mb-lg-0
-        LineaTiempoD.color-secundario.mt-5
+      .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
+        LineaTiempoD.color-secundario
           p(numero="1" titulo="Secuencia cronológica") Un orden cronológico es un orden establecido en función de una sucesión temporal. La expresión suele utilizarse para dar cuenta de sucesos históricos reales o narraciones ficticias en donde los eventos son presentados en un orden temporal virtual. #[br] Es una de las estructuras más básicas es ordenar las paradas según su cronología. Una especie de línea de tiempo. 
           p(numero="2" titulo="Secuencia anacrónica")  Esta secuencia en lugar de seguir una cronología, comienza en el medio o final de la historia contada. Es decir, que resulta incongruente respecto a la época en la cual se presenta.
           p(numero="3" titulo="Secuencia argumento científico") La estructura en esta secuencia es similar a la de un argumento científico. Es un procedimiento cognitivo lingüístico que da lugar a la producción de un texto explicativo, en el que pueden reconocerse cuatro componentes: pragmática, retórica, teórica y lógica.
@@ -309,7 +283,7 @@
           p(numero="5" titulo="Secuencia paralela") El término historias o secuencias paralelas, también denominadas narraciones paralelas o tramas paralelas, tiene una estructura de historias en la que el escritor incluye dos o más narrativas separadas vinculadas por un personaje, evento o tema común. Que se cuentan de manera simultánea y paralelas que no se cruzan, sino hasta el final.
           p(numero="6" titulo="Secuencia enigma revelador") Esta secuencia comienza con un enigma o pregunta provocativa y mediante las paradas revela pistas hasta contestar el enigma.
           p(numero="7" titulo="Secuencia disonancia cognoscitiva") En esta secuencia la estrategia es provocar incomodidad entre los participantes y luego ofrecerles un remedio para reducir la incomodidad o disonancia que siente. 
-      .col-lg-6
+      .col-lg-6(style="place-self:center")
         figure
           img(src="@/assets/curso/tema3/24.png" data-aos="fade-left")
 
