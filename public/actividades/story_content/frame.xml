@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00000000001" font="Didact Gothic" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000001" font="Didact Gothic" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="npxnabnsnfns00000000001" font="Didact Gothic" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="npnxnanbnsnfns00000000001" font="Didact Gothic" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000000" font="Didact Gothic" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Actividad_did&amp;#225;cticacf7guianz" />
+              <option name="title_text" value="Actividad did&amp;#225;ctica" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -70,7 +70,7 @@
           <option name="search" value="false" />
           <option name="closed_captions" value="false">
             <options>
-              <option name="font" value="Didact Gothic" />
+              <option name="font" value="Open Sans" />
             </options>
           </option>
           <option name="settings" value="false" />
@@ -1183,22 +1183,22 @@
       <string id="acc_enter_fullscreen">Ingresar en el modo de pantalla completa</string>
       <string id="acc_exit_fullscreen">Salir del modo de pantalla completa</string>
       <string id="accessible_text">Texto accesible</string>
-      <string id="modern_video_captions_on">Activado</string>
-      <string id="modern_video_captions_off">Desactivado</string>
-      <string id="modern_video_settings_close">cerrar ajustes de video</string>
-      <string id="modern_video_playback_settings">Ajustes de reproducción del video</string>
-      <string id="acc_modern_video_volume">volumen del video</string>
-      <string id="acc_modern_video_fullscreen">video a pantalla completa</string>
-      <string id="modern_video_normal_speed">Normal</string>
-      <string id="acc_modern_video_playback_speed">velocidad de reproducción</string>
-      <string id="modern_video_playback_speed_title">Velocidad de reproducción</string>
-      <string id="modern_video_captions_label">Subtítulos</string>
-      <string id="acc_modern_video_settings">ajustes del video</string>
-      <string id="acc_modern_video_captions">subtítulos del video</string>
-      <string id="acc_modern_video_pip">miniatura video</string>
-      <string id="acc_modern_video_pause">pausar video</string>
-      <string id="acc_modern_video_play">reproducir video</string>
-      <string id="acc_modern_video_mute">silenciar video</string>
+      <string id="modern_video_captions_on">~øñ</string>
+      <string id="modern_video_captions_off">~øff</string>
+      <string id="modern_video_settings_close">~cløš~e ѵi~deo ~seţt~iñgs</string>
+      <string id="modern_video_playback_settings">~þlaý~bacķ~ šeţ~tiñg~s</string>
+      <string id="acc_modern_video_volume">~ѵide~ø vo~lüӎe</string>
+      <string id="acc_modern_video_fullscreen">~füll~šcře~eñ</string>
+      <string id="modern_video_normal_speed">~Nøřӎ~al</string>
+      <string id="acc_modern_video_playback_speed">~Plaý~bacķ~ šþe~ed</string>
+      <string id="modern_video_playback_speed_title">~Plaý~bacķ~ šþe~ed</string>
+      <string id="modern_video_captions_label">~caþţ~iøñš</string>
+      <string id="acc_modern_video_settings">~ѵide~ø še~ţtiñ~gs</string>
+      <string id="acc_modern_video_captions">~ѵide~ø ca~þţio~ñš</string>
+      <string id="acc_modern_video_pip">~Picţ~üře-~iñ-P~ictu~re</string>
+      <string id="acc_modern_video_pause">~þaüš~e ѵi~deø</string>
+      <string id="acc_modern_video_play">~þlaý~ ѵid~eø</string>
+      <string id="acc_modern_video_mute">~ӎüţe~ ѵid~eø</string>
       <string id="acc_definition">definición</string>
       <string id="definition">Definición</string>
       <string id="search_results">Resultados de la búsqueda</string>
@@ -1289,9 +1289,9 @@
     </string_table>
   </string_tables>
   <fonts>
-    <font name="Didact Gothic">
+    <font name="Open Sans">
       <files>
-        <file bold="false" italic="false" />
+        <file bold="true" italic="false" />
         <file bold="false" italic="false" />
       </files>
     </font>
@@ -1303,16 +1303,13 @@
         <slidelink slideid="_player.6g8RcXIVtvA" displaytext="Nuevo Presentación de Microsoft PowerPoint" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6g8RcXIVtvA.6GrUdUpuerp" displaytext="Diapositiva sin título" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6SVzdn0sZsC" displaytext="Verdadero/Falso" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5gG79znnKej" displaytext="Verdadero/Falso" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6gaOPeXKk29" displaytext="Verdadero/Falso" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5eMpVVhChfC" displaytext="Verdadero/Falso" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5lgU8lBuSBB" displaytext="Verdadero/Falso" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.64NBHuWuwj3" displaytext="Verdadero/Falso" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5lZEeLMrmUt" displaytext="Verdadero/Falso" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.63WA0vUjrQV" displaytext="Verdadero/Falso" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5lQSODGdIVQ" displaytext="Verdadero/Falso" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.65hj0uwenBI" displaytext="Verdadero/Falso" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5pMSQdNTnb5" displaytext="Cuando se menciona el mensaje interpretativo en el trabajo de interpretación del Patrimonio, se hace referencia a una forma de comunicación que es diferente, esta estrategia planeada, realmente busca la receptividad y la interacción con el público al que va dirigido." expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6BpZ7VPEKIM" displaytext="Para que el ejercicio interpretativo sea efectivo, no es necesario involucrar al visitante, basta con evidenciar rasgos o fenómenos de importancia de los bienes patrimoniales, siendo más efectivo el ejercicio si está mediado por un guía-interprete, el cual debe tener el conocimiento, la creatividad y perspicacia para transmitir el mensaje interpretativo. " expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5dbTNEJ55u1" displaytext="Cuando se construye el mensaje es importante que este tenga un hilo conductor, es decir; la forma como se estructuran las ideas debe estar organizada de tal forma que el visitante pueda organizar la información en su mente." expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6AigEU6kfj2" displaytext="La interpretación revela los significados que representan un espacio, una cultura o un objeto. Es una disciplina práctica dirigida a las personas que están interesadas en mostrar el patrimonio natural y cultural. Se basa en herramientas que ofrece la comunicación para llegar al visitante desde otra perspectiva, situándolo no como pasivo observador sino como sujeto activo de su propia experiencia con un entorno determinado, cuyo fin es la transferencia del entendimiento y el respeto sobre el espacio que está conociendo.&#xA;&#xA;De acuerdo con el escrito anterior, quienes hacen parte de este mensaje interpretativo: " expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6kRGjY7ccz7" displaytext="¿Quién es el intérprete del patrimonio natural y cultural?" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5oXSYJwSoiK" displaytext="¿Qué es un sendero interpretativo? &#xD;&#xA;Un sendero interpretativo es                                       que permite recorrer con facilidad y seguridad un área determinada. &#xD;&#xA;Se traza en función de los lugares o los atractivos a visitar. Los recorridos interpretativos son                          vinculadas a un lugar o un                                       determinado y se realizan por los                                       que han sido definidos. " expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5xG4ecjH34Q" displaytext="El sendero interpretativo es un                                        que se brinda y supone un contacto directo del&#xA;                                     con el recurso que se desea conocer. La manera de entregar el                                       debe ser sugerente, simple, breve, recreativo e inspirador. " expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
